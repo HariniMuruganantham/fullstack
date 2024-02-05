@@ -1,0 +1,105 @@
+.face
+{
+    border: 1px solid black;
+    height:  180px;
+    width: 180px;
+    border-radius: 90px ;
+    position: relative;
+    background-color:#ffbade;
+    top: 50px;
+
+}
+.eye1 {
+    border: 1px solid black;
+    height:  35px;
+    width: 35px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    
+    background-color: white;
+}
+.eye2 {
+    border: 1px solid black;
+    height:  35px;
+    width: 35px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    background-color: white;
+}
+.mouth{
+    border: 1px solid black;
+    height:  38px;
+    width: 100px;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    background-color: #f445b1;
+}
+.ret1
+{
+    border:1px solid black ;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: black;
+    position: relative;
+    top: 10px;
+}
+.ret2
+{
+    border:1px solid black ;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: black;
+    position: relative;
+    top: 10px;
+
+}
+.nose1{
+    width: 20px;
+    height: 25px;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    top: 5px;
+    left: 29px;
+}
+.nose2{
+    width: 20px;
+    height: 25px;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    bottom: 20px;
+    right: 29px;
+
+}
+.leftear{
+    width: 80px;
+    height: 45px;
+    background-color: #ffbade;
+    border-radius: 150px 150px 0px 0px;
+    position: absolute;
+    top: 103px;
+    left: 807px;
+    border: 1px solid #000;
+    rotate: 40deg;
+}
+.rightear{
+    width: 80px;
+    height: 45px;
+    background-color: #ffbade;
+    border-radius: 150px 150px 0px 0px;
+    position: absolute;
+    top: 103px;
+    left: 650px;
+    border: 1px solid #000;
+    rotate: -40deg;
+    
+}
